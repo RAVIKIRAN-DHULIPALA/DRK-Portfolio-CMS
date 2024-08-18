@@ -48,7 +48,7 @@ const AIHelper = memo(({ onClose, formdata, setFormData, setState }) => {
             }
             else {
                 // Call the secured Cloud Function
-                await fetch('https://us-central1-drk-ux-portfolio.cloudfunctions.net/secureTextPredictor', {
+                await fetch('https://us-central1-xxxxx.cloudfunctions.net/xxxxx', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
