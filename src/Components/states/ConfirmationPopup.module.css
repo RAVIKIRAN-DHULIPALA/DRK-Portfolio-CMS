@@ -1,0 +1,213 @@
+.featuredIcon {
+    position: relative;
+    border-radius: var(--br-9xl);
+    width: 56px;
+    height: 56px;
+}
+
+.text {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.areYouSureYouWantToDelet1 {
+    line-height: 20px;
+}
+
+.areYouSureYouWantToDelet {
+    display: block;
+}
+
+.span {
+    font-family: var(--text-md-medium);
+}
+
+.span1 {
+    font-weight: 600;
+    font-family: var(--text-md-medium);
+}
+
+.slug {
+    font-size: var(--text-md-medium-size);
+    line-height: 24px;
+    color: var(--gray-900);
+}
+
+.documentFrom {
+    font-family: var(--display-sm-semibold);
+}
+
+.type {
+    font-weight: 600;
+    font-family: var(--display-sm-semibold);
+}
+
+.documentFromType {
+    font-size: var(--text-sm-regular-size);
+    line-height: 20px;
+    color: var(--gray-500);
+}
+
+.supportingText {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--text-sm-regular-size);
+    color: var(--gray-500);
+}
+
+.textAndSupportingText {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+.caseStudyTitle {
+    border: none;
+    font-weight: 500;
+    font-family: var(--display-sm-semibold);
+    font-size: var(--text-sm-regular-size);
+    background-color: transparent;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+}
+
+.text1 {
+    position: relative;
+    font-size: var(--text-md-medium-size);
+    line-height: 24px;
+    font-weight: 500;
+    font-family: var(--display-sm-semibold);
+    color: var(--gray-700);
+    text-align: left;
+}
+
+.cancelButton {
+    cursor: pointer;
+    border: 1px solid var(--gray-300);
+    padding: var(--padding-3xs) var(--padding-lg);
+    background-color: var(--white);
+    flex: 1;
+    border-radius: var(--br-5xs);
+    box-shadow: var(--shadow-xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text2 {
+    position: relative;
+    font-size: var(--text-md-medium-size);
+    line-height: 24px;
+    font-weight: 500;
+    font-family: var(--display-sm-semibold);
+    color: var(--white);
+    text-align: left;
+}
+
+.deleteButton,
+.deleteButtonDis {
+    cursor: pointer;
+    border: 1px solid var(--error-700);
+    padding: var(--padding-3xs) var(--padding-lg);
+    background-color: var(--error-700);
+    flex: 1;
+    border-radius: var(--br-5xs);
+    box-shadow: var(--shadow-xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.deleteButtonDis {
+    background-color: var(--error-200) !important;
+    border: 1px solid var(--error-200) !important;
+}
+
+.actions {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+
+.confirmationpopup {
+    border-radius: var(--br-xs);
+    background-color: var(--white);
+    box-shadow: var(--shadow-xl);
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-5xl);
+    box-sizing: border-box;
+    gap: var(--gap-13xl);
+    max-width: 100%;
+    max-height: 100%;
+    text-align: left;
+    font-size: var(--text-lg-medium-size);
+    color: var(--gray-900);
+    font-family: var(--display-sm-semibold);
+}
+
+@media screen and (max-width: 768px) {
+    .cancelButton {
+        flex: unset;
+        align-self: stretch;
+    }
+
+    .deleteButton,
+    .deleteButtonDis {
+        flex: unset;
+        align-self: stretch;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cancelButton {
+        flex: unset;
+        align-self: stretch;
+    }
+
+    .deleteButton,
+    .deleteButtonDis {
+        flex: unset;
+        align-self: stretch;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+}

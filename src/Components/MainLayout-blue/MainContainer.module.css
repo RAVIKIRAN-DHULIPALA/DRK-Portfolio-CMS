@@ -1,0 +1,498 @@
+.headerText,
+.supportingText {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+}
+
+.headerText {
+    font-size: inherit;
+    line-height: 38px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.supportingText {
+    font-size: var(--text-md-semibold-size);
+    line-height: 24px;
+    color: var(--gray-500);
+}
+
+.pageHeaderContent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+}
+
+.icons,
+.text {
+    position: relative;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.text {
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--text-sm-medium);
+    color: var(--gray-700);
+    text-align: left;
+}
+
+.reorderButton {
+    cursor: pointer;
+    border: 1px solid var(--gray-300);
+    padding: var(--padding-3xs) var(--padding-base);
+    background-color: var(--white);
+    border-radius: var(--br-5xs);
+    box-shadow: var(--shadow-xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.text1 {
+    position: relative;
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--text-sm-medium);
+    color: var(--white);
+    text-align: left;
+}
+
+.actions,
+.addNewButton,
+.pageHeaderSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.addNewButton {
+    cursor: pointer;
+    border: 1px solid var(--blue-700);
+    padding: var(--padding-3xs) var(--padding-base);
+    background-color: var(--blue-700);
+    border-radius: var(--br-5xs);
+    box-shadow: var(--shadow-xs);
+    overflow: hidden;
+    align-items: center;
+    gap: var(--gap-5xs);
+}
+
+.actions,
+.pageHeaderSection {
+    align-items: flex-start;
+    gap: var(--gap-xs);
+}
+
+.pageHeaderSection {
+    align-self: stretch;
+    border-bottom: 1px solid var(--gray-300);
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-13xl);
+    gap: var(--gap-5xl);
+    z-index: 1;
+}
+
+.thumbnailIcon {
+    align-self: stretch;
+    position: relative;
+    border-radius: var(--br-5xs);
+    max-height: 100%;
+    width: 54px;
+    object-fit: cover;
+}
+
+.title {
+    flex: 1;
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.titlecontentAvailable {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.linkIcon {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.untitleduicomprojectmarketi {
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+}
+
+.iconAndText {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    font-size: var(--text-sm-medium-size);
+    color: var(--gray-500);
+}
+
+.titleslug {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-7xs);
+}
+
+.cardItemHeader,
+.thumbnailtitleslug {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.thumbnailtitleslug {
+    flex: 1;
+    gap: var(--gap-base);
+}
+
+.cardItemHeader {
+    align-self: stretch;
+    gap: var(--gap-5xs);
+    z-index: 1;
+}
+
+.icons1,
+.text2 {
+    position: relative;
+}
+
+.text2 {
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.icons1 {
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.name {
+    align-self: stretch;
+    border-radius: var(--br-base);
+    background-color: var(--success-600);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-7xs) var(--padding-11xs) var(--padding-5xs);
+    gap: var(--gap-9xs);
+}
+
+.categoryName {
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+    color: var(--success-700);
+}
+
+.categoryContentAvailable {
+    border-radius: var(--br-base);
+    background-color: var(--success-50);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) var(--padding-3xs) var(--padding-9xs) var(--padding-9xs);
+    gap: var(--gap-5xs);
+    mix-blend-mode: multiply;
+    z-index: 0;
+    font-size: var(--text-xs-medium-size);
+    color: var(--white);
+}
+
+.cardItemContent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    gap: var(--gap-5xl);
+    z-index: 1;
+}
+
+.divider {
+    align-self: stretch;
+    position: relative;
+    background-color: var(--gray-200);
+    height: 1px;
+}
+
+.manage {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.manageButton {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.button {
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--white);
+    box-shadow: var(--shadow-sm);
+    width: 16px;
+    height: 16px;
+}
+
+.actionsContent,
+.showToggle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.showToggle {
+    border-radius: var(--br-xs);
+    background-color: var(--blue-600);
+    width: 36px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    padding: var(--padding-11xs);
+    box-sizing: border-box;
+}
+
+.actionsContent {
+    align-self: stretch;
+    justify-content: space-between;
+    padding: var(--padding-base) var(--padding-5xl);
+}
+
+.actions1,
+.uxCardItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.actions1 {
+    align-self: stretch;
+    align-items: center;
+    z-index: 0;
+    font-size: var(--text-sm-medium-size);
+    color: var(--blue-700);
+}
+
+.uxCardItem {
+    border-radius: var(--br-5xs);
+    background-color: var(--white);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--gray-200);
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+
+.mainContentContainer {
+    align-self: stretch;
+    overflow-y: auto;
+    gap: var(--gap-5xl);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+.mainContainer,
+.mainContentSection,
+.mainContentSection1,
+.mainContentSection2 {
+    align-self: stretch;
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.mainContentSection,
+.mainContentSection1,
+.mainContentSection2 {
+    padding: var(--padding-5xl) var(--padding-13xl) 0;
+    z-index: 0;
+    font-size: var(--text-lg-medium-size);
+}
+
+.mainContentSection1 {
+    padding: 0 0 0;
+}
+
+.mainContentSection2 {
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    border-radius: var(--br-21xl);
+    background-color: var(--white);
+    text-align: left;
+    font-size: var(--display-sm-medium-size);
+    color: var(--gray-900);
+    font-family: var(--text-sm-medium);
+}
+
+@media screen and (max-width: 992px) {
+    .pageHeaderContent {
+        flex: unset;
+        align-self: stretch;
+    }
+
+    .addNewButton,
+    .reorderButton {
+        flex: 1;
+    }
+
+    .actions {
+        align-self: stretch;
+        width: auto;
+    }
+
+    .pageHeaderSection {
+        flex-direction: column;
+        padding: var(--padding-5xl);
+        box-sizing: border-box;
+    }
+
+    .mainContentContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 24px;
+        grid-column-gap: 24px;
+    }
+
+    .mainContentSection {
+        padding-left: var(--padding-5xl);
+        padding-right: var(--padding-5xl);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .addNewButton,
+    .reorderButton {
+        flex: 1;
+    }
+
+    .actions {
+        align-self: stretch;
+        width: auto;
+        flex-direction: row;
+    }
+
+    .pageHeaderSection {
+        display: flex;
+        padding: var(--padding-base) var(--padding-xs);
+        box-sizing: border-box;
+    }
+
+    .mainContentContainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 24px;
+        grid-column-gap: 24px;
+    }
+
+    .mainContentSection {
+        height: 100%;
+        padding-left: var(--padding-base);
+        padding-top: var(--padding-base);
+        padding-right: var(--padding-base);
+        box-sizing: border-box;
+    }
+
+    .mainContentSection1,
+    .mainContentSection2 {
+        padding: 0;
+    }
+
+    .mainContainer {
+        border-radius: var(--br-5xl);
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .addNewButton,
+    .reorderButton {
+        align-self: stretch;
+        width: auto;
+    }
+
+    .actions {
+        flex-direction: column-reverse;
+    }
+
+    .pageHeaderSection {
+        padding: var(--padding-base) var(--padding-xs);
+        box-sizing: border-box;
+    }
+
+    .mainContentContainer {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(auto, auto));
+        grid-row-gap: 24px;
+        grid-column-gap: 24px;
+    }
+
+    .mainContentSection {
+        padding: var(--padding-5xs);
+        box-sizing: border-box;
+    }
+
+    .mainContentSection1,
+    .mainContentSection2 {
+        padding: 0;
+    }
+
+    .mainContainer {
+        border-radius: var(--br-5xl);
+    }
+}

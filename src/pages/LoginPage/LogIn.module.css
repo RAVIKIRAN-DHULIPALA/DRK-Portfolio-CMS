@@ -1,0 +1,411 @@
+.logo2Icon,
+.logoRk1Icon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.logoRk1Icon {
+  width: 56px;
+  height: 56px;
+  display: none;
+}
+
+.logo2Icon {
+  width: 143px;
+  height: 54px;
+}
+
+.logo,
+.logoHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.logo {
+  align-items: center;
+  gap: 40px;
+}
+
+.logoHeader {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: var(--padding-13xl);
+}
+
+.supportingText,
+.text {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+
+.text {
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.supportingText {
+  font-size: var(--text-md-medium-size);
+  line-height: 24px;
+  color: var(--gray-500);
+}
+
+.mainFormHeadingsubtext {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+
+.forgotPasswordText {
+  position: relative;
+  font-size: var(--text-sm-regular-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--text-md-regular);
+  color: var(--blue-700);
+  text-align: left;
+}
+
+.forgotPasswordLink,
+.rememberforgotPassowordRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.forgotPasswordLink {
+  text-decoration: none;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rememberforgotPassowordRow {
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.signinButton {
+  align-self: stretch;
+}
+
+.mainForm,
+.mainFormContainer,
+.mainFormContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.mainForm {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.mainFormContainer,
+.mainFormContent {
+  align-items: center;
+}
+
+.mainFormContent {
+  width: 360px;
+  gap: var(--gap-13xl);
+}
+
+.mainFormContainer {
+  align-self: stretch;
+}
+
+.copyrightText {
+  margin: 0;
+  position: relative;
+  line-height: 20px;
+}
+
+.footer,
+.leftSection {
+  align-self: stretch;
+  display: flex;
+  text-align: left;
+  font-family: var(--text-md-regular);
+}
+
+.footer {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-13xl);
+  font-size: var(--text-sm-regular-size);
+  color: var(--gray-500);
+}
+
+.leftSection {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--display-sm-semibold-size);
+  color: var(--gray-900);
+}
+
+.linePatternIcon {
+  position: absolute;
+  margin: 0 !important;
+  bottom: -220px;
+  left: 0;
+  width: 298px;
+  height: 408px;
+  z-index: 0;
+}
+
+.author,
+.quote {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+
+.quote {
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.author {
+  font-size: var(--text-md-medium-size);
+  line-height: 24px;
+  text-align: right;
+}
+
+.quoteContainer,
+.quoteContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.quoteContent {
+  border-radius: var(--br-5xs);
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: var(--background-blur-lg);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 20px;
+  gap: var(--gap-13xl);
+}
+
+.quoteContainer {
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.4));
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-21xl) var(--padding-21xl);
+  z-index: 1;
+}
+
+.logIn,
+.section {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.section {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-61xl) 0 0 var(--br-61xl);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url("/public/assets/images/section@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--display-sm-semibold-size);
+  color: var(--white);
+  font-family: var(--text-md-regular);
+}
+
+.logIn {
+  background-color: var(--white);
+  width: 100%;
+  height: 100dvh;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .logoRk1Icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .logoRk1Icon {
+    display: flex;
+  }
+
+  .logo2Icon {
+    display: none;
+  }
+
+  .text {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+
+  .mainFormContent {
+    align-self: stretch;
+    width: auto;
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+
+  .footer {
+    display: flex;
+  }
+
+  .leftSection {
+    gap: 0;
+    height: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .linePatternIcon {
+    display: none;
+  }
+
+  .quoteContainer {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    padding-bottom: var(--padding-5xl);
+    box-sizing: border-box;
+    border-radius: 0 0 var(--br-11xl) var(--br-11xl);
+  }
+
+  .section {
+    flex: unset;
+    border-radius: 0 0 var(--br-11xl) var(--br-11xl);
+    overflow: visible;
+    align-self: stretch;
+  }
+
+  .logIn {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logoRk1Icon {
+    display: flex;
+  }
+
+  .logo2Icon {
+    display: none;
+  }
+
+  .logoHeader,
+  .mainFormContent {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+
+  .leftSection {
+    padding-left: 0;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .quote {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+
+  .quoteContainer {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+    border-radius: 0 0 var(--br-11xl) var(--br-11xl);
+  }
+
+  .section {
+    height: auto;
+  }
+
+  .logIn {
+    align-items: center;
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo2Icon {
+    display: none;
+  }
+
+  .logoHeader {
+    padding: var(--padding-13xl) var(--padding-base);
+    box-sizing: border-box;
+  }
+
+  .text {
+    font-size: var(--font-size-xl);
+    line-height: 30px;
+  }
+
+  .mainFormContent {
+    align-self: stretch;
+    width: auto;
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+
+  .leftSection {
+    flex: unset;
+    height: 100%;
+    align-self: stretch;
+  }
+
+  .quote {
+    font-size: var(--font-size-xl);
+    line-height: 30px;
+  }
+
+  .quoteContainer {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+    border-radius: 0 0 var(--br-11xl) var(--br-11xl);
+  }
+
+  .section {
+    display: flex;
+    height: auto;
+    border-radius: 0 0 var(--br-11xl) var(--br-11xl);
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .logIn {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: start;
+  }
+}

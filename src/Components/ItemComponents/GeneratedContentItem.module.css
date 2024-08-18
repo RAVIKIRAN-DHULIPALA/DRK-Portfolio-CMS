@@ -1,0 +1,87 @@
+.heading {
+    margin: 0;
+    align-self: stretch;
+    flex: 1;
+    font-size: inherit;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.heading,
+.icons,
+.text {
+    position: relative;
+}
+
+.text {
+    font-size: var(--text-xs-medium-size);
+    line-height: 18px;
+    font-weight: 500;
+    font-family: var(--text-xs-medium);
+    color: var(--gray-700);
+    text-align: left;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.cancelButton,
+.headingAndCopy {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+}
+
+.cancelButton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--white);
+    border-radius: var(--br-5xs);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.headingAndCopy {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+}
+
+.generatedText {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--text-lg-medium-size);
+    line-height: 28px;
+    font-weight: 500;
+    color: var(--gray-900);
+}
+
+.generatedContentItem {
+    border-radius: var(--br-5xs);
+    background-color: var(--white);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--gray-200);
+    box-sizing: border-box;
+    max-width: 352px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    gap: var(--gap-base);
+    text-align: left;
+    font-size: var(--text-sm-medium-size);
+    color: var(--gray-500);
+    font-family: var(--text-md-regular);
+}

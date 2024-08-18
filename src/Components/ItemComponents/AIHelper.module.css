@@ -1,0 +1,176 @@
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slideOutHeading {
+    position: relative;
+    line-height: 30px;
+    font-weight: 500;
+    display: inline-block;
+    width: 260px;
+    flex-shrink: 0;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-5xl) 0;
+}
+
+.xIcon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.buttonBase,
+.closeButton {
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonBase {
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+}
+
+.closeButton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.slideOutMenuHeader {
+    border-bottom: 1px solid var(--gray-300);
+    box-sizing: border-box;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-xs) 0 var(--padding-5xl);
+    gap: var(--gap-5xs);
+}
+
+.text,
+.textareaInputField {
+    font-size: var(--text-sm-medium-size);
+    font-weight: 500;
+    font-family: var(--display-sm-medium);
+}
+
+.textareaInputField {
+    border: 0;
+    background-color: transparent;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.text {
+    position: relative;
+    line-height: 20px;
+    color: var(--white);
+    text-align: left;
+}
+
+.generateButton {
+    cursor: pointer;
+    border: 1px solid var(--blue-600);
+    padding: var(--padding-3xs) var(--padding-base);
+    background-color: var(--blue-600);
+    border-radius: var(--br-5xs);
+    box-shadow: var(--shadow-xs);
+    box-sizing: border-box;
+    width: 352px;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider {
+    align-self: stretch;
+    position: relative;
+    background-color: var(--gray-200);
+    height: 1px;
+}
+
+.dividerAndGenerate,
+.mainForm {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+
+.mainForm {
+    gap: var(--gap-5xl);
+}
+
+.generatedContent {
+    align-self: stretch;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    gap: var(--gap-5xl);
+    overflow-y: auto;
+}
+
+.aiHelper,
+.mainContent {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mainContent {
+    align-self: stretch;
+    flex: 1;
+    padding: var(--padding-5xl) var(--padding-5xl) 0;
+    gap: var(--gap-5xl);
+}
+
+.aiHelper {
+    background-color: var(--white);
+    box-shadow: var(--shadow-xl);
+    height: 100%;
+    opacity: 0;
+    max-width: 90%;
+    text-align: left;
+    font-size: var(--text-xl-medium-size);
+    color: var(--gray-900);
+    font-family: var(--display-sm-medium);
+}
+
+.aiHelper.animate {
+    animation: 0.25s ease 0s 1 normal forwards slide-in-right;
+}

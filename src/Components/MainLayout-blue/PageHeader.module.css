@@ -1,0 +1,330 @@
+.headerText,
+.supportingText {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+}
+
+.headerText {
+    font-size: inherit;
+    line-height: 38px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.supportingText {
+    font-size: var(--text-md-regular-size);
+    line-height: 24px;
+    color: var(--gray-500);
+}
+
+.text11 {
+    position: relative;
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--text-md-regular);
+    color: var(--gray-500);
+    text-align: left;
+}
+
+.breadcrumbButtonBase {
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-9xs) var(--padding-5xs);
+}
+
+.breadcrumbButtonBase2 {
+    border-radius: var(--br-7xs);
+    background-color: var(--blue-50);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-9xs) var(--padding-5xs);
+}
+
+.addMore {
+    position: relative;
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--text-md-regular);
+    color: var(--blue-700);
+    text-align: left;
+}
+
+
+.pageHeaderContent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+.icons4 {
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.text15 {
+    position: relative;
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--display-sm-semibold);
+    color: var(--success-700);
+    text-align: center;
+}
+
+.synced {
+    border-radius: var(--br-base);
+    /* background-color: var(--success-50); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-9xs) var(--padding-3xs) var(--padding-9xs) var(--padding-xs);
+    gap: var(--gap-9xs);
+}
+
+.text16 {
+    position: relative;
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--display-sm-semibold);
+    color: var(--warning-700);
+    text-align: center;
+}
+
+.syncingBadge {
+    border-radius: var(--br-base);
+    /* background-color: var(--warning-50); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-9xs) var(--padding-3xs) var(--padding-9xs) var(--padding-xs);
+    gap: var(--gap-9xs);
+}
+
+.text17 {
+    position: relative;
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--display-sm-semibold);
+    color: var(--error-700);
+    text-align: center;
+}
+
+.syncFailed {
+    border-radius: var(--br-base);
+    /* background-color: var(--error-50); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-9xs) var(--padding-3xs) var(--padding-9xs) var(--padding-xs);
+    gap: var(--gap-9xs);
+}
+
+
+
+.icons,
+.text {
+    position: relative;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.text {
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--text-md-regular);
+    color: var(--gray-700);
+    text-align: left;
+}
+
+.reorderButton {
+    cursor: pointer;
+    border: 1px solid var(--gray-300);
+    padding: var(--padding-3xs) var(--padding-base);
+    background-color: var(--white);
+    border-radius: var(--br-5xs);
+    box-shadow: var(--shadow-xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.text1 {
+    position: relative;
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--text-md-regular);
+    color: var(--white);
+    text-align: left;
+}
+
+.actions,
+.addNewButton,
+.pageHeaderSection,
+.pageHeaderSection1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.addNewButton {
+    cursor: pointer;
+    border: 1px solid var(--blue-700);
+    padding: var(--padding-3xs) var(--padding-base);
+    background-color: var(--blue-700);
+    border-radius: var(--br-5xs);
+    box-shadow: var(--shadow-xs);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-5xs);
+}
+
+.actions,
+.pageHeaderSection,
+.pageHeaderSection1 {
+    align-items: flex-start;
+    gap: var(--gap-xs);
+}
+
+.pageHeaderMainSection,
+.pageHeaderSection,
+.pageHeaderSection1 {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+    text-align: left;
+    color: var(--gray-900);
+    font-family: var(--text-md-regular);
+}
+
+.pageHeaderSection,
+.pageHeaderSection1 {
+    align-items: center;
+}
+
+.pageHeaderMainSection {
+    border-bottom: 1px solid var(--gray-300);
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-13xl);
+    gap: var(--gap-xl);
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 992px) {
+    .pageHeaderContent {
+        flex: unset;
+        align-self: stretch;
+    }
+
+    .addNewButton,
+    .reorderButton {
+        flex: 1;
+    }
+
+    .actions {
+        align-self: stretch;
+        width: auto;
+    }
+
+    .pageHeaderMainSection {
+        flex-direction: column;
+        padding: var(--padding-5xl);
+        box-sizing: border-box;
+    }
+
+    .pageHeaderSection {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .pageHeaderSection1 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .addNewButton,
+    .reorderButton {
+        flex: 1;
+    }
+
+    .actions {
+        align-self: stretch;
+        width: auto;
+        flex-direction: row;
+    }
+
+    .pageHeaderMainSection {
+        display: flex;
+        padding: var(--padding-base) var(--padding-xs);
+        box-sizing: border-box;
+    }
+
+    .pageHeaderSection {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .pageHeaderSection1 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .addNewButton,
+    .reorderButton {
+        align-self: stretch;
+        width: auto;
+    }
+
+    .actions {
+        flex-direction: column-reverse;
+    }
+
+    .pageHeaderMainSection {
+        padding: var(--padding-base) var(--padding-xs);
+        box-sizing: border-box;
+    }
+
+    .pageHeaderSection,
+    .pageHeaderSection1 {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}

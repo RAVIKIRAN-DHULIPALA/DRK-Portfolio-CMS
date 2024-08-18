@@ -1,0 +1,47 @@
+.featuredIcon {
+    position: relative;
+    border-radius: var(--br-md);
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.textP {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.warningDiv {
+    border-radius: var(--br-5xs);
+    background-color: var(--warning-50);
+    border: 1px solid var(--warning-100);
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs);
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-md);
+    text-align: left;
+    font-size: var(--text-md-medium-size);
+    color: var(--warning-700);
+    font-family: var(--text-sm-medium1);
+}
+
+@media screen and (max-width: 428px) {
+    .confirm-div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .confirm-div {
+        width: 100%;
+    }
+}

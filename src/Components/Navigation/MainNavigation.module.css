@@ -1,0 +1,425 @@
+.logoRk2Icon {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.portfolioCms {
+    position: relative;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.navHeader {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-13xl) var(--padding-base);
+    gap: var(--gap-5xs);
+}
+
+.skillsSectionHeading {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 28px;
+    font-weight: 500;
+    display: flex;
+    gap: var(--gap-5xs);
+    font-family: inherit;
+}
+
+.icons {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    transition: all 0.7s ease;
+}
+
+.accordianHeader {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-7xs) 0;
+}
+
+.text {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.content,
+.navItemActive {
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+
+.navItemActive {
+    text-decoration: none;
+    border-radius: var(--br-7xs);
+    background-color: var(--blue-700);
+    height: 48.8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: var(--padding-5xs) var(--padding-xs);
+    box-sizing: border-box;
+    color: inherit;
+}
+
+.navItem,
+.navItemActive,
+.skillsNavigationMenu {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navItem {
+    text-decoration: none;
+    border-radius: var(--br-7xs);
+    height: 48.8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-5xs) var(--padding-xs);
+    box-sizing: border-box;
+    color: inherit;
+}
+
+.skillsNavigationMenu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-9xs);
+    font-size: var(--text-md-regular-size);
+    color: var(--gray-100);
+}
+
+.skillsNavigation {
+    border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+    background-color: var(--blue-800);
+    padding: var(--padding-base);
+    gap: var(--gap-base);
+}
+
+.assetsNavigation,
+.mainNavigationContainer,
+.skillsNavigation {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.assetsNavigation {
+    border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+    background-color: var(--blue-800);
+    padding: var(--padding-base);
+    gap: var(--gap-base);
+}
+
+.mainNavigationContainer {
+    padding: 0 var(--padding-base);
+    gap: var(--gap-5xs);
+}
+
+.portofolioLinksSectionHeadi {
+    margin: 0;
+    position: relative;
+    font-size: var(--text-md-regular-size);
+    line-height: 24px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.portfolioText,
+.text9 {
+    position: relative;
+    line-height: 20px;
+}
+
+.portfolioText {
+    margin: 0;
+    flex: 1;
+}
+
+.text9 {
+    font-weight: 500;
+}
+
+.buttonBase,
+.visit {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonBase {
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.visit {
+    text-decoration: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: inherit;
+}
+
+.mainPortfolio,
+.portfolioLinks {
+    align-self: stretch;
+    gap: var(--gap-base);
+}
+
+.mainPortfolio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.portfolioLinks {
+    border-radius: var(--br-5xs);
+    background-color: var(--blue-800);
+    justify-content: center;
+    padding: var(--padding-base);
+}
+
+.mainNavigation,
+.portfolioLinks,
+.portfolioLinksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.portfolioLinksContainer {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 var(--padding-base);
+    font-size: var(--text-sm-medium-size);
+}
+
+.mainNavigation {
+    flex: 1;
+    width: 280px;
+    gap: var(--gap-5xl);
+    overflow-y: auto;
+    justify-content: space-between;
+    padding: 0 0 var(--padding-base);
+    box-sizing: border-box;
+    font-size: var(--text-lg-medium-size);
+}
+
+.motionHeader,
+.motionSection {
+    width: 100%;
+}
+
+.mainNavigation::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.dividerIcon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 1px;
+    flex-shrink: 0;
+}
+
+.avatarIcon {
+    border-radius: var(--br-181xl);
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.emailText,
+.nameText {
+    margin: 0;
+    position: relative;
+    line-height: 20px;
+}
+
+.nameText {
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.emailText {
+    color: var(--gray-100);
+    font-size: var(--text-xs-medium-size);
+}
+
+.nameemail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.logOutIcon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.account,
+.logoutButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoutButton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    border-radius: var(--br-5xs);
+    overflow: hidden;
+    justify-content: center;
+}
+
+.account {
+    align-self: stretch;
+    justify-content: space-between;
+    padding: 0 var(--padding-5xs);
+}
+
+.footer,
+.sidebarNavigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    color: var(--white);
+    font-family: var(--text-md-regular);
+}
+
+.footer {
+    align-self: stretch;
+    padding: 0 var(--padding-base) var(--padding-13xl);
+    gap: var(--gap-5xs);
+    font-size: var(--text-sm-medium-size);
+}
+
+.sidebarNavigation {
+    margin: 0;
+    flex: 1;
+    overflow: hidden;
+    font-size: var(--display-xs-medium-size);
+}
+
+.portfolioCms1 {
+    position: relative;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.logo {
+    width: 247px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+.icon,
+.menu04 {
+    overflow: hidden;
+}
+
+.icon {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.menu04 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.mobilenavigation {
+    margin: 0;
+    align-self: stretch;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--padding-xs) 0 var(--padding-base);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--text-lg-medium-size);
+    color: var(--white);
+    font-family: var(--text-md-regular);
+}
+
+.navigation {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+}
+
+@media screen and (max-width: 992px) {
+    /* .sidebarNavigation {
+        display: none;
+    }
+
+    .mobilenavigation {
+        display: flex;
+    } */
+}
+
+@media screen and (max-width: 768px) {
+    .logoRk2Icon {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /* .sidebarNavigation {
+        display: none;
+    }
+
+    .mobilenavigation {
+        display: flex;
+    } */
+}

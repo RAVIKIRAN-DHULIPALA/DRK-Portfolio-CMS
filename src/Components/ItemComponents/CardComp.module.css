@@ -1,0 +1,290 @@
+.thumbnailIcon {
+    align-self: stretch;
+    position: relative;
+    border-radius: var(--br-5xs);
+    max-height: 100%;
+    width: 54px;
+    object-fit: cover;
+}
+
+.linkIcon,
+.title {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.title {
+    margin: 0;
+    font-size: inherit;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+}
+
+.linkIcon {
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+
+.untitleduicomprojectmarketi {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+}
+
+.iconAndText {
+    text-decoration: none;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    font-size: var(--text-sm-medium-size);
+    color: var(--gray-500);
+}
+
+.titleslug {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-7xs);
+}
+
+.thumbnailtitleslug {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+
+.icon {
+    position: absolute;
+    height: 75%;
+    width: 16.67%;
+    top: 12.5%;
+    right: 41.67%;
+    bottom: 12.5%;
+    left: 41.67%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.moreVertical {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.cardItemHeader {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    z-index: 1;
+}
+
+.categoryTitle {
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.availabilityIcon {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.categoryBadge {
+    align-self: stretch;
+    border-radius: var(--br-base);
+    background-color: var(--success-600);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-7xs) var(--padding-11xs) var(--padding-5xs);
+    gap: var(--gap-9xs);
+}
+
+.categoryName {
+    margin: 0;
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+    color: var(--success-700);
+}
+
+.categoryContentAvailable {
+    border-radius: var(--br-base);
+    background-color: var(--success-50);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) var(--padding-3xs) var(--padding-9xs) var(--padding-9xs);
+    gap: var(--gap-5xs);
+    mix-blend-mode: multiply;
+    z-index: 0;
+    font-size: var(--text-xs-medium-size);
+    color: var(--white);
+}
+
+.cardItemContent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    gap: var(--gap-5xl);
+    z-index: 1;
+}
+
+.divider {
+    align-self: stretch;
+    position: relative;
+    background-color: var(--gray-200);
+    height: 1px;
+}
+
+.manageIcon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.manage {
+    position: relative;
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--text-md-regular);
+    color: var(--blue-700);
+    text-align: left;
+}
+
+.manageButton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.button {
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--white);
+    box-shadow: var(--shadow-sm);
+    width: 16px;
+    height: 16px;
+}
+
+.actionsContent,
+.showToggle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.showToggle {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-11xs);
+    background-color: var(--blue-600);
+    border-radius: var(--br-xs);
+    width: 36px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.actionsContent {
+    align-self: stretch;
+    justify-content: space-between;
+    padding: var(--padding-base);
+}
+
+.actions,
+.uxCaseStudies {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.actions {
+    align-self: stretch;
+    align-items: center;
+    z-index: 0;
+}
+
+.uxCaseStudies {
+    border-radius: var(--br-5xs);
+    background-color: var(--white);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--gray-200);
+    box-sizing: border-box;
+    align-items: flex-start;
+    text-align: left;
+    font-size: var(--text-lg-semibold-size);
+    color: var(--gray-900);
+    font-family: var(--text-md-regular);
+}
+
+@media screen and (max-width: 992px) {
+    .cardItemHeader {
+        flex-direction: row;
+    }
+
+    .actionsContent,
+    .cardItemContent {
+        padding-left: var(--padding-xs);
+        padding-right: var(--padding-xs);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .actionsContent,
+    .cardItemContent {
+        padding-left: var(--padding-xs);
+        padding-right: var(--padding-xs);
+        box-sizing: border-box;
+    }
+
+    .uxCaseStudies {
+        width: 100%;
+        min-width: unset;
+    }
+
+}

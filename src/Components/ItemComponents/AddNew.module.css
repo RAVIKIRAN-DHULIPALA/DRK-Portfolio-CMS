@@ -1,0 +1,419 @@
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slideOutHeading {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.contentH {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xl) 0;
+}
+
+.xIcon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.buttonBase,
+.closeButton {
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonBase {
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+}
+
+.closeButton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.slideOutMenuHeader {
+    align-self: stretch;
+    border-bottom: 1px solid var(--gray-300);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-xs) 0 var(--padding-5xl);
+    gap: var(--gap-5xs);
+}
+
+.label {
+    align-self: stretch;
+    font-size: var(--text-sm-medium-size);
+    font-weight: 500;
+    font-family: var(--display-sm-semibold);
+}
+
+
+.label {
+    position: relative;
+    line-height: 20px;
+    color: var(--gray-700);
+    text-align: left;
+}
+
+.imageIcon {
+    position: relative;
+    border-radius: var(--br-5xs);
+    width: 236px;
+    height: 150px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.text {
+    position: relative;
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--display-sm-semibold);
+    color: var(--error-700);
+    text-align: left;
+}
+
+.deleteButton,
+.uploadedFileAction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.deleteButton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    font-family: inherit;
+    background-color: transparent;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.uploadedFileAction {
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+.thumbnailContent {
+    align-items: flex-start;
+}
+
+.fileUploadBase,
+.thumbnail,
+.thumbnailContent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.fileUploadBase {
+    width: 100%;
+    border-radius: var(--br-5xs);
+    background-color: var(--blue-25);
+    border: 1px dashed var(--blue-200);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: var(--padding-base) var(--padding-5xl);
+}
+
+.thumbnail {
+    align-items: flex-start;
+    gap: var(--gap-7xs);
+}
+
+.button {
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--white);
+    box-shadow: var(--shadow-sm);
+    width: 20px;
+    height: 20px;
+}
+
+.toggle {
+    border-radius: var(--br-xs);
+    background-color: var(--blue-600);
+    width: 44px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: var(--padding-11xs);
+    box-sizing: border-box;
+}
+
+.text1 {
+    position: relative;
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--text-md-regular);
+    color: var(--gray-700);
+    text-align: center;
+}
+
+.showCaseStudy {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+
+.divider {
+    align-self: stretch;
+    position: relative;
+    background-color: var(--gray-200);
+    height: 1px;
+}
+
+.addMore1 {
+    position: relative;
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--text-md-regular);
+    color: var(--blue-700);
+    text-align: left;
+}
+
+
+.addMoreButton {
+    flex: 1;
+    border-radius: var(--br-5xs);
+    background-color: var(--blue-50);
+    box-shadow: var(--shadow-xs);
+    border: 1px solid var(--blue-50);
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-sm);
+    gap: var(--gap-5xs);
+}
+
+.addMore,
+.mainFormContent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.addMore {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 53px;
+    align-items: flex-start;
+    gap: var(--gap-base);
+}
+
+.mainFormContent {
+    flex: 1;
+    overflow: auto;
+    align-items: center;
+    padding: var(--padding-5xl);
+    gap: var(--gap-5xl);
+}
+
+.divider1 {
+    position: relative;
+    background-color: var(--gray-200);
+    width: 100%;
+    height: 1px;
+}
+
+.cancelButton {
+    cursor: pointer;
+    border: 1px solid var(--gray-300);
+    padding: var(--padding-3xs) var(--padding-base);
+    background-color: var(--white);
+    flex: 1;
+    border-radius: var(--br-5xs);
+    box-shadow: var(--shadow-xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text4 {
+    position: relative;
+    font-size: var(--text-sm-medium-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--text-md-regular);
+    color: var(--white);
+    text-align: left;
+}
+
+.actionsFooterContent,
+.saveButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.saveButton {
+    cursor: pointer;
+    border: 1px solid var(--blue-600);
+    padding: var(--padding-3xs) var(--padding-base);
+    background-color: var(--blue-600);
+    flex: 1;
+    border-radius: var(--br-5xs);
+    box-shadow: var(--shadow-xs);
+    overflow: hidden;
+    justify-content: center;
+}
+
+.actionsFooterContent {
+    width: 100%;
+    justify-content: flex-end;
+    padding: var(--padding-base) var(--padding-5xl);
+    box-sizing: border-box;
+    gap: var(--gap-base);
+}
+
+.actionsFooter,
+.addNewCaseStudiesSlideOut,
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.actionsFooter {
+    align-self: stretch;
+    align-items: center;
+}
+
+.mainForm {
+    flex: 1;
+    align-self: stretch;
+    height: 0%;
+}
+
+.addNewCaseStudiesSlideOut {
+    background-color: var(--white);
+    height: 100%;
+    overflow: auto;
+    align-items: flex-start;
+    opacity: 0;
+    min-width: 400px;
+    text-align: left;
+    font-size: var(--text-xl-medium-size);
+    color: var(--gray-900);
+    font-family: var(--text-md-regular);
+}
+
+.addNewCaseStudiesSlideOut.animate {
+    animation: 0.25s ease 0s 1 normal forwards slide-in-right;
+}
+
+@media screen and (max-width: 1200px) {
+    .addNewCaseStudiesSlideOut {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .addNewCaseStudiesSlideOut {
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
+        min-width: unset;
+    }
+}
+
+
+.UploadIcon {
+    position: relative;
+    border-radius: 28px;
+    width: 46px;
+    height: 46px;
+}
+
+.uploadText {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+    color: var(--blue-600);
+    text-align: center;
+}
+
+.action {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textAndSupportingText1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    text-align: left;
+    font-size: var(--text-sm-medium-size);
+    color: var(--blue-500);
+    font-family: var(--text-sm-medium);
+}

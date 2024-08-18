@@ -1,0 +1,65 @@
+.documentsrafikiIcon {
+    position: relative;
+    width: 198.5px;
+    height: 188.4px;
+}
+
+.supportingText,
+.text {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+}
+
+.text {
+    font-size: inherit;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.supportingText {
+    font-size: var(--text-md-normal-size);
+    line-height: 24px;
+    font-family: var(--text-md-normal);
+    color: var(--gray-500);
+}
+
+.textAndSupportingText {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+.content,
+.emptyState,
+.textAndSupportingText {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    align-self: stretch;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+}
+
+.emptyState {
+    background-color: var(--white);
+    width: 410px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: var(--text-xl-medium-size);
+    color: var(--gray-900);
+    font-family: var(--display-sm-semibold);
+}
+
+@media screen and (max-width: 576px) {
+    .emptyState {
+        width: 100%;
+    }
+}

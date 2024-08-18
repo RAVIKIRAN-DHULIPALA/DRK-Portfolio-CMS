@@ -1,0 +1,255 @@
+.fileUploadIcon1 {
+    position: relative;
+    width: 36px;
+    height: 36px;
+}
+
+.fileUploadIcon2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.filename {
+    align-self: stretch;
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.size {
+    align-self: stretch;
+    position: relative;
+    line-height: 20px;
+    color: var(--gray-500);
+}
+
+.filenamesize {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.background1 {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border-radius: var(--br-5xs);
+    height: 8px;
+}
+
+.progress1 {
+    width: 100%;
+    border-radius: var(--br-5xs);
+    background-color: var(--blue-50) !important;
+    height: 8px !important;
+}
+
+.progressBar1 {
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-5xs);
+    height: 8px;
+}
+
+.percentage {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.progressBar {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.filenameSizeProgress {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.trashIcon1 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.deleteButtonBase1 {
+    border-radius: var(--br-5xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.deleteButton {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    cursor: pointer;
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.action {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.fileUpload {
+    position: relative;
+    border-radius: var(--br-5xs);
+    background-color: var(--white);
+    border: 1px solid var(--gray-200);
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    text-align: left;
+    font-size: var(--text-sm-medium-size);
+    color: var(--gray-700);
+    font-family: var(--text-sm-medium);
+}
+
+.divider1 {
+    align-self: stretch;
+    position: relative;
+    background-color: var(--gray-200);
+    height: 1px;
+}
+
+.text1 {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+}
+
+.content1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    background-color: var(--white);
+    box-shadow: var(--shadow-xs);
+    border: 1px solid var(--gray-300);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 14px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.inputFieldBase1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.textField {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sendIcon1 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.buttonBase {
+    border-radius: var(--br-5xs);
+    background-color: var(--primary-600);
+    box-shadow: var(--shadow-xs);
+    border: 1px solid var(--primary-600);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.actions {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--text-md-normal-size);
+    color: var(--gray-500);
+    font-family: var(--text-md-normal);
+}

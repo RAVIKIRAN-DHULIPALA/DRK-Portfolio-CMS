@@ -1,0 +1,207 @@
+.featuredIcon {
+    border-radius: var(--br-9xl);
+    width: 46px;
+    height: 46px;
+}
+
+.featuredIcon,
+.icons,
+.title {
+    position: relative;
+}
+
+.title {
+    margin: 0;
+    flex: 1;
+    font-size: inherit;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+}
+
+.buttonBase {
+    align-self: stretch;
+    flex: 1;
+    border-radius: var(--br-5xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+}
+
+.button,
+.fileUpload,
+.iconAndTitle {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    border-radius: var(--br-xl);
+    width: 40px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fileUpload,
+.iconAndTitle {
+    align-self: stretch;
+}
+
+.iconAndTitle {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-base);
+    font-family: var(--display-sm-semibold);
+}
+
+.fileUpload {
+    height: 126px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fileUploadIcon {
+    position: relative;
+    width: 36px;
+    height: 36px;
+}
+
+.supportingText,
+.text {
+    align-self: stretch;
+    position: relative;
+    line-height: 20px;
+}
+
+.text {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.supportingText {
+    color: var(--gray-500);
+    display: none;
+}
+
+.textAndSupportingText {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.progressBar {
+    align-self: stretch;
+}
+
+.content,
+.content1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+
+.content {
+    flex-direction: row;
+}
+
+.checkboxBaseIcon {
+    position: relative;
+    border-radius: var(--br-5xs);
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+}
+
+.noOfFilesUploaded {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    background-color: var(--white);
+    border: 1px solid var(--gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    gap: var(--gap-9xs);
+    font-size: var(--text-sm-medium-size);
+    color: var(--gray-700);
+}
+
+.checkIcon {
+    position: relative;
+    border-radius: var(--br-base);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.text1 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    line-height: 28px;
+}
+
+.textWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+}
+
+.addNewFiles,
+.allItemsUploaded {
+    display: flex;
+    gap: var(--gap-base);
+}
+
+.allItemsUploaded {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: var(--text-lg-medium-size);
+    color: var(--gray-500);
+}
+
+.addNewFiles {
+    border-radius: var(--br-xs);
+    background-color: var(--white);
+    box-shadow: var(--shadow-xl);
+    width: 512px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-5xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: left;
+    font-size: var(--text-xl-medium-size);
+    color: var(--gray-900);
+    font-family: var(--text-sm-medium1);
+}
